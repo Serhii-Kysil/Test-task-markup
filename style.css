@@ -1,0 +1,158 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.card-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+  justify-content: center;
+}
+.container {
+  min-width: 320px;
+  max-width: 375px;
+
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-container {
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 180px;
+}
+/* Te1 */
+.icons-cont {
+  display: flex;
+  justify-content: flex-end;
+}
+.green-cont {
+  outline: 2px solid #179d2e;
+}
+.blue-cont {
+  outline: 2px solid #0177b8;
+}
+.orange-cont {
+  outline: 2px solid #f5af23;
+}
+.red-cont {
+  outline: 2px solid #f02e2c;
+}
+.svg {
+  width: 64px;
+  height: 64px;
+}
+.green-icon {
+  fill: #179d2e;
+}
+.blue-icon {
+  fill: #0177b8;
+}
+.orange-icon {
+  fill: #f5af23;
+}
+.red-icon {
+  fill: #f02e2c;
+}
+
+/* asdsadsad */
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.text-title {
+  color: #181833;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-inline-start: 5px;
+  list-style: inside;
+}
+.list-item {
+  font-weight: 400;
+  color: #2d2d2d;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.link {
+  text-align: end;
+  color: #2d2d2d;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .card-container {
+    padding: 12px;
+    gap: 12px;
+    width: 300px;
+  }
+  .card-list {
+    gap: 20px;
+  }
+  .svg {
+    width: 84px;
+    height: 85px;
+  }
+  .text-container {
+    gap: 12px;
+  }
+  .text-title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .services-list {
+    gap: 8px;
+  }
+  .list-item {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    margin: 30px auto;
+  }
+  .card-container {
+    padding: 24px;
+    gap: 24px;
+    width: 424px;
+  }
+  .card-list {
+    gap: 24px;
+  }
+  .svg {
+    width: 94px;
+    height: 100px;
+  }
+  .text-container {
+    gap: 24px;
+  }
+  .text-title {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .services-list {
+    gap: 12px;
+  }
+  .list-item {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
