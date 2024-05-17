@@ -27,6 +27,7 @@ ul {
   flex-direction: column;
   gap: 6px;
   width: 180px;
+  height: 100%;
 }
 /* Te1 */
 .icons-cont {
@@ -51,15 +52,19 @@ ul {
 }
 .green-icon {
   fill: #179d2e;
+  height: 100%;
 }
 .blue-icon {
   fill: #0177b8;
+  height: 100%;
 }
 .orange-icon {
   fill: #f5af23;
+  height: 100%;
 }
 .red-icon {
   fill: #f02e2c;
+  height: 100%;
 }
 
 /* asdsadsad */
@@ -92,6 +97,7 @@ ul {
 .link {
   text-align: end;
   color: #2d2d2d;
+  margin-top: auto;
 }
 @media screen and (min-width: 768px) {
   .container {
