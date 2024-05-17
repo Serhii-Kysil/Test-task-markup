@@ -29,7 +29,7 @@ ul {
   width: 180px;
   height: 100%;
 }
-/* Te1 */
+
 .icons-cont {
   display: flex;
   justify-content: flex-end;
@@ -63,7 +63,6 @@ ul {
   fill: #f02e2c;
 }
 
-/* asdsadsad */
 .text-container {
   display: flex;
   flex-direction: column;
